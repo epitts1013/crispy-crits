@@ -1,0 +1,36 @@
+{
+  "id": "crispy-crits",
+  "title": "Crispy Crits",
+  "description": "Adds a critical calculation option that is more consistant than doubling dice or damage but less powerful than the 'Powerful Criticals' option. Crispy Crits adds the max roll of one of each damage type's dice to the total damage. For use with the DND 5e system.",
+  "authors": [{
+    "name": "SuperSparky"
+  }],
+  "version": "1.0.0",
+  "url": "https://github.com/epitts1013/crispy-crits",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "scripts": [
+    "scripts/crispy-crits.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/refs/heads/4.4.x/system.json",
+      "compatibility": {
+        "verified": "4.4.4"
+      }
+    }]
+  }
+}

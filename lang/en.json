@@ -1,0 +1,10 @@
+{
+  "CRISPY-CRITS": {
+    "settings": {
+      "use-crispy-crits": {
+        "Name": "Use Crispy Crits",
+        "Hint": "Make critical hits more deadly by adding the max roll of one of each damage type's dice. Will override Multiply Modifiers and Maximize Dice."
+      }
+    }
+  }
+}
